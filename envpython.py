@@ -22,7 +22,7 @@ def define_sg_permissions(env, con, acces_map, sec_group_id, entity):
     lookup_key = entity + "_portmap"
     sec_group_perms = []
 
-    entry_map = access_map[lookup_key]
+    
 
     for src in entry_map["source"].values():
         for port in entry_map["port"].values():
