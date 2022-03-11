@@ -18,7 +18,7 @@ def usage():
     exit(5)
 
 
-def define_sg_permissions(env, conn, access_map, sec_group_id, entity):
+def define_sg_permissions(env, con, access_map, sec_group_id, entity):
     lookup_key = entity + "_portmap"
     sec_group_perms = []
 
