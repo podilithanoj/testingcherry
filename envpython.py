@@ -30,7 +30,7 @@ def define_sg_permissions(env, con, acces_map, sec_group_id, entity):
 
     if entity == 'cluster':
         sec_group_perms.append(
-                {'IpProtocol': '-1',
+                {'IpProtoco': '-1',
                  'FromPort': 0,
                  'ToPort': 65535,
                  'UserIdGroupPairs': [{'GroupId': sec_group_id}]}
